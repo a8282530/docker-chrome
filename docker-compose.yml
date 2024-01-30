@@ -1,0 +1,62 @@
+version: '3'
+services:
+  chrome110:
+    image: browserless/chrome:110
+    command: --headless --disable-gpu --no-sandbox --disable-software-rasterizer --remote-debugging-address=0.0.0.0 --remote-debugging-port=1110
+    ports:
+      - "1110:1110"
+  chrome111:
+    image: browserless/chrome:111
+    command: --headless --disable-gpu --no-sandbox --disable-software-rasterizer --remote-debugging-address=0.0.0.0 --remote-debugging-port=1111
+    ports:
+      - "1111:1111"
+  chrome112:
+    image: browserless/chrome:112
+    command: --headless --disable-gpu --no-sandbox --disable-software-rasterizer --remote-debugging-address=0.0.0.0 --remote-debugging-port=1112
+    ports:
+      - "1112:1112"
+  chrome113:
+    image: browserless/chrome:113
+    command: --headless --disable-gpu --no-sandbox --disable-software-rasterizer --remote-debugging-address=0.0.0.0 --remote-debugging-port=1113
+    ports:
+      - "1113:1113"
+  chrome114:
+    image: browserless/chrome:114
+    command: --headless --disable-gpu --no-sandbox --disable-software-rasterizer --remote-debugging-address=0.0.0.0 --remote-debugging-port=1114
+    ports:
+      - "1114:1114"
+  chrome115:
+    image: browserless/chrome:115
+    command: --headless --disable-gpu --no-sandbox --disable-software-rasterizer --remote-debugging-address=0.0.0.0 --remote-debugging-port=1115
+    ports:
+      - "1115:1115"
+  chrome116:
+    image: browserless/chrome:116
+    command: --headless --disable-gpu --no-sandbox --disable-software-rasterizer --remote-debugging-address=0.0.0.0 --remote-debugging-port=1116
+    ports:
+      - "1116:1116"
+  chrome117:
+    image: browserless/chrome:117
+    command: --headless --disable-gpu --no-sandbox --disable-software-rasterizer --remote-debugging-address=0.0.0.0 --remote-debugging-port=1117
+    ports:
+      - "1117:1117"
+  chrome118:
+    image: browserless/chrome:118
+    command: --headless --disable-gpu --no-sandbox --disable-software-rasterizer --remote-debugging-address=0.0.0.0 --remote-debugging-port=1118
+    ports:
+      - "1118:1118"
+  chrome119:
+    image: browserless/chrome:119
+    command: --headless --disable-gpu --no-sandbox --disable-software-rasterizer --remote-debugging-address=0.0.0.0 --remote-debugging-port=1119
+    ports:
+      - "1119:1119"
+  chrome120:
+    image: browserless/chrome:120
+    command: --headless --disable-gpu --no-sandbox --disable-software-rasterizer --remote-debugging-address=0.0.0.0 --remote-debugging-port=1120
+    ports:
+      - "1120:1120"
+  chrome121:
+    image: browserless/chrome:121
+    command: --headless --disable-gpu --no-sandbox --disable-software-rasterizer --remote-debugging-address=0.0.0.0 --remote-debugging-port=1121
+    ports:
+      - "1121:1121"
