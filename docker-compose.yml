@@ -1,7 +1,9 @@
 version: '3'
 services:
   chrome110:
-    image: browserless/chrome:110
+    build:
+      context: .
+      dockerfile: Dockerfile.chrome110
     command: --headless --disable-gpu --no-sandbox --disable-software-rasterizer --remote-debugging-address=0.0.0.0 --remote-debugging-port=1110
     ports:
       - "1110:1110"
