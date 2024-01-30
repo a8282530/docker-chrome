@@ -1,0 +1,53 @@
+ports:
+  - port: 1110
+    onOpen: open-preview
+    description: chrome110
+    visibility: public
+  - port: 1111
+    onOpen: open-preview
+    description: chrome111
+    visibility: public
+  - port: 1112
+    onOpen: open-preview
+    description: chrome112
+    visibility: public
+  - port: 1113
+    onOpen: open-preview
+    description: chrome113
+    visibility: public
+  - port: 1114
+    onOpen: open-preview
+    description: chrome114
+    visibility: public
+  - port: 1115
+    onOpen: open-preview
+    description: chrome115
+    visibility: public
+  - port: 1116
+    onOpen: open-preview
+    description: chrome116
+    visibility: public
+  - port: 1117
+    onOpen: open-preview
+    description: chrome117
+    visibility: public
+  - port: 1118
+    onOpen: open-preview
+    description: chrome118
+    visibility: public
+  - port: 1119
+    onOpen: open-preview
+    description: chrome119
+    visibility: public
+  - port: 1120
+    onOpen: open-preview
+    description: chrome120
+    visibility: public
+  - port: 1121
+    onOpen: open-preview
+    description: chrome121
+    visibility: public
+
+# This will make it so that on workspace start it will run a file called `app.py`
+tasks:
+  - command: docker-compose up -d
